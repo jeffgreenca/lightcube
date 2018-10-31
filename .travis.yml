@@ -1,6 +1,6 @@
 language: python
 python:
-  - py37
+  - "3.7"
 dist: trusty
 addons:
   sonarcloud:
