@@ -1,0 +1,7 @@
+language: python
+dist: trusty
+addons:
+  sonarcloud:
+    organization: "jeffgreenca-github"
+script:
+  - sonar-scanner
