@@ -1,7 +1,12 @@
 language: python
+python:
+  - py37
 dist: trusty
 addons:
   sonarcloud:
     organization: "jeffgreenca-github"
+install:
+  - pip install tox-travis
 script:
   - sonar-scanner
+  - tox
