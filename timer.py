@@ -1,22 +1,27 @@
 import requests
 import time
 
+
 class Led:
     WHITE = 1
     BLUE = 2
     GREEN = 3
     RED = 5
 
+
 def flip(led):
     requests.get("http://localhost:5120/flip/%s" % led)
 
+
 def alarm(led):
     requests.get("http://localhost:5120/alarm/%s" % led)
+
 
 def timer(m, led):
     for _ in range(int(m * 60)):
         flip(led)
         time.sleep(1)
+
 
 def alarm_and_wait(led=1):
     print("Ding ding ding!")
