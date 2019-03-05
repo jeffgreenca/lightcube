@@ -24,9 +24,9 @@ def timer(m, led):
 
 
 def alarm_and_wait(led=1):
-    print("Ding ding ding!")
     while True:
         try:
+            print("******************** Ding ding ding ********************")
             alarm(led)
         except KeyboardInterrupt:
             input("Press [enter] to continue, CTRL-C to exit...")
