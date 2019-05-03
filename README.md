@@ -1,4 +1,5 @@
 ![build](https://travis-ci.org/jeffgreenca/lightcube.svg?branch=master) ![coverage](https://sonarcloud.io/api/project_badges/measure?project=jeffgreenca_lightcube&metric=coverage)
+[![CircleCI](https://circleci.com/gh/jeffgreenca/lightcube.svg?style=svg)](https://circleci.com/gh/jeffgreenca/lightcube)
 # lightcube
 
 A simple web interface to trigger events on my custom light cube.
