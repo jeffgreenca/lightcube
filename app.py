@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import time
 from flask import Flask
 import interface
